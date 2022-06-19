@@ -1,0 +1,26 @@
+.page{
+    display:flex;
+    justify-content: center;
+
+}
+
+.page a{
+    color: #555555;
+}
+
+.page a:hover {
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+    background-color: #e75653;
+    border-color: #dee2e6;
+}
+
+.active a{
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+    background-color: #e75653;
+    border-color: #dee2e6;
+}
+

@@ -1,0 +1,27 @@
+.dropdown {
+  background-color: #11b7cc !important;
+  border: #11b7cc !important;
+  font-size: 20px !important;
+  margin-right: 2em;
+  height: 60.66px;
+  border-radius: 8px !important;
+}
+
+.upcoming {
+  background-color: white;
+  border: none;
+  color: #2e4a72;
+  font-family: "gothambold", Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+    .dropdown{
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+}
+

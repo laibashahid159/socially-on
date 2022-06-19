@@ -1,0 +1,174 @@
+.expenses {
+  padding: 1rem;
+  background-color: #ffffff;
+  margin: 2rem auto;
+  margin-top: 12%;
+  width: 100rem;
+  max-width: 100%;
+  min-height: 400px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.footer {
+  min-height: 100%;
+  background-image: url("back.png");
+  background-color: #dee2e6;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  /* Set up positioning */
+  position: fixed;
+
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.detail {
+  margin-bottom: 0px;
+}
+.title {
+  display: flex;
+  color: #555555;
+  font-family: "arial";
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-left: 10px;
+  max-width: 260px;
+  word-wrap: break-word;
+}
+.date {
+  display: inline-flex;
+  align-self: flex-start;
+  flex-direction: column;
+  width: 70px;
+  min-width: 70px;
+  height: 70px;
+  border: 1px solid #ececec;
+  background-color: #11b7cc;
+  color: white;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.date__month {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.date__year {
+  font-size: 0.75rem;
+}
+
+.date__day {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+
+.desc {
+  color: #555555;
+  margin-top: 5%;
+}
+
+.stars {
+  align-items: flex-end;
+  width: "200px";
+  color: #ffffff;
+}
+
+.desc h5 {
+  font-weight: bold;
+  display: inline;
+  font-size: 18px;
+}
+
+.desc p {
+  font-size: 18px;
+}
+
+.button2 {
+  background-color: #11b7cc;
+  width: 50%;
+  align-self: center;
+}
+
+.button2:disabled {
+  background-color: rgb(175, 175, 175);
+  pointer-events: none;
+}
+
+.comment {
+  color: #555555;
+  width: 100%;
+  font-size: 1rem;
+  margin-left: 0px;
+}
+.commentTitle {
+  color: #555555;
+  margin-top: 40px;
+  font-weight: bolder;
+}
+
+.modal1 {
+  position: fixed;
+  margin-top: 90px;
+  right: 20px;
+  width: 20%;
+  z-index: 101;
+  overflow: hidden;
+}
+
+.datestyle {
+  color: rgb(145, 143, 143);
+  font-size: 10px;
+  border-bottom: rgb(200, 199, 199) 0.5px solid;
+  padding-left: 32px;
+}
+.postcomment {
+  border-radius: 7px;
+  border: 0px;
+  padding: 6px;
+  background-color: #ebf0f5;
+  width: 80%;
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.postbutton {
+  width: 30px;
+  height: auto;
+  float: right;
+  cursor: pointer;
+}
+
+@media (max-width: 575px) {
+  .modal1 {
+    position: fixed;
+    margin-top: 90px;
+    width: 80%;
+    left: 10%;
+    z-index: 101;
+    overflow: hidden;
+  }
+  .expenses {
+    margin-top: 120px;
+  }
+
+  .detail {
+    margin-bottom: 0px;
+    width: 100%;
+    margin-left: 30px;
+  }
+}
